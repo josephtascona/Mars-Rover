@@ -33,14 +33,10 @@ end
 
 rover = Rover.new
 
-rover.move
-rover.turn
-puts rover.x_coordinate
-puts rover.y_coordinate
-puts rover.direction
-
-rover.move
-rover.turn
-puts rover.x_coordinate
-puts rover.y_coordinate
-puts rover.direction
+10.times do
+  rover.move
+  rover.turn
+  puts rover.x_coordinate
+  puts rover.y_coordinate
+  puts rover.direction
+end
